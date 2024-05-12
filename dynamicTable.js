@@ -15,5 +15,10 @@ const teamMembers = [
         status: 'Active', 
         tags: ['Ft.End.', 'Dev.'],
     },
-
+ 
 ]
+
+let tableRowCount = document.getElementsByClassName('table-row-count');
+
+tableRowCount[0].innerHTML = `(${teamMembers.length}) Members` ;
+let tableBody = document.getElementById('team-member-rows');
