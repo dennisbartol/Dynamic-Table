@@ -34,10 +34,13 @@ const mappedRecords = teamMembers.filter((_, i) => (
     (i + 1 <= start * itemsOnPage)
     )
 
+   // Line changed (Removed the alt teamMember.name)
+   // <img src="${teamMember.src}" alt="${teamMember.name}">
+
     .map((teamMember) => {
         return `<tr>
                 <td class="team-member-profile">
-                <img src="${teamMember.src}" alt="${teamMember.name}">
+                <img src="${teamMember.src}">
                 <span class="profile-info">
                     <span class="profile-info__name">
                         ${teamMember.name}
