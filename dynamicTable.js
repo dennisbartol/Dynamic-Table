@@ -42,7 +42,7 @@ const mappedRecords = teamMembers.filter((_, i) => (
                     <span class="profile-info__name">
                         ${teamMember.name}
                     </span>
-                    <span class="profile-info__alias>
+                    <span class="profile-info__alias"> // Missed one " initially 
                         ${teamMember.alias}
                     </span>
                 </span>
