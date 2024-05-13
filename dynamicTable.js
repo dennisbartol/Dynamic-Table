@@ -5,7 +5,7 @@ const teamMembers = [
         alias: '@James', 
         email: 'blabla@example.com', 
         status: 'Active', 
-        tags: ['Dev.', 'C#'],
+        tags: ['C#', 'Dev.'],
     },
     {
         src: 'assets/profile.jpg', 
@@ -13,7 +13,7 @@ const teamMembers = [
         alias: '@DB', 
         email: 'blablaDB@example.com', 
         status: 'Active', 
-        tags: ['Ft.End.', 'Dev.'],
+        tags: ['Front-End', 'Dev.'],
     },
  
 ]
