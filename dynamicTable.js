@@ -79,7 +79,7 @@ tableBody.innerHTML = mappedRecords.join('');
 const pagination = document.querySelector('.pagination'); 
 const linkList = [];
 
-for (let i = 0; i < numberOfPages; i++); 
+for (let i = 0; i < numberOfPages; i++) {
     const pageNumber = i + 1; 
     linkList.push(`<li>
         <a href="?page=${pageNumber}" 
@@ -88,5 +88,5 @@ for (let i = 0; i < numberOfPages; i++);
         ${pageNumber}
         </a>
     </li>`);
-
+}
 pagination.innerHTML = linkList.join('');
