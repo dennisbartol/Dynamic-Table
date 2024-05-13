@@ -5,7 +5,7 @@ const teamMembers = [
         alias: '@James', 
         email: 'blabla@example.com', 
         status: 'Active', 
-        tags: ['Dev.', 'C#'],
+        tags: ['C#', 'Dev.'],
     },
     {
         src: 'assets/profile.jpg', 
@@ -13,7 +13,7 @@ const teamMembers = [
         alias: '@DB', 
         email: 'blablaDB@example.com', 
         status: 'Active', 
-        tags: ['Ft.End.', 'Dev.'],
+        tags: ['Front-End', 'Dev.'],
     },
  
 ]
@@ -34,15 +34,18 @@ const mappedRecords = teamMembers.filter((_, i) => (
     (i + 1 <= start * itemsOnPage)
     )
 
+    // Line changed (Removed the alt teamMember.name)
+    // <img src="${teamMember.src}" alt="${teamMember.name}">
+    
     .map((teamMember) => {
         return `<tr>
                 <td class="team-member-profile">
-                <img src="${teamMember.src}" alt="${teamMember.name}">
+                <img src="${teamMember.src}">
                 <span class="profile-info">
                     <span class="profile-info__name">
                         ${teamMember.name}
                     </span>
-                    <span class="profile-info__alias>
+                    <span class="profile-info__alias"> // Missed one " initially 
                         ${teamMember.alias}
                     </span>
                 </span>
@@ -79,7 +82,7 @@ tableBody.innerHTML = mappedRecords.join('');
 const pagination = document.querySelector('.pagination'); 
 const linkList = [];
 
-for (let i = 0; i < numberOfPages; i++); 
+for (let i = 0; i < numberOfPages; i++) {
     const pageNumber = i + 1; 
     linkList.push(`<li>
         <a href="?page=${pageNumber}" 
@@ -88,5 +91,5 @@ for (let i = 0; i < numberOfPages; i++);
         ${pageNumber}
         </a>
     </li>`);
-
+}
 pagination.innerHTML = linkList.join('');
