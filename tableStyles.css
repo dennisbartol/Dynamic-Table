@@ -19,6 +19,8 @@ body {
     background-color: var(--background);
 }
 
+
+
 .table-widget { 
     border-radius: 16px; 
     background-color: var(--table-background); 
