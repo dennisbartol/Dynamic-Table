@@ -5,4 +5,5 @@
 <ul>
 <li>The table is powered by an object, containing information of each person. </li>
 <li>The variable <code>const itemsOnPage = 5;</code> tells the browser how many persons should be displayed on each page.</li>
+<li>Through the <code>.map</code> function, a row containing person data, is then being displayed by the browser.</li>
 </ul>
