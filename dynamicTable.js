@@ -23,6 +23,14 @@ const teamMembers = [
         status: 'Active', 
         tags: ['Front-End', 'Dev.'],
     },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Luke Skywalker', 
+        alias: '@DB', 
+        email: 'luke@skywalker.net', 
+        status: 'Active', 
+        tags: ['Fullstack', 'Dev.'],
+    },
  
 ]
 
