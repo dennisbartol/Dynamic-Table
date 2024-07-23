@@ -41,9 +41,9 @@ const teamMembers = [
     },
     {
         src: 'assets/profile.jpg', 
-        name: 'Joe Dev', 
-        alias: '@JD', 
-        email: 'Joe@dev.net', 
+        name: 'Corey Watson', 
+        alias: '@CW', 
+        email: 'Corey@watson.net', 
         status: 'Active', 
         tags: ['Fullstack', 'Dev.'],
     }
