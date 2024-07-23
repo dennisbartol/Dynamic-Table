@@ -19,6 +19,13 @@ body {
     background-color: var(--background);
 }
 
+.pagination { 
+    display: block; 
+    color: var(--primary); 
+    text-decoration: underline; 
+    padding: 8px 14px; 
+    
+}
 
 
 .table-widget { 
