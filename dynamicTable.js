@@ -34,7 +34,7 @@ const teamMembers = [
     {
         src: 'assets/profile.jpg', 
         name: 'Leia Skywalker', 
-        alias: '@DB', 
+        alias: '@LS', 
         email: 'leia@skywalker.net', 
         status: 'Active', 
         tags: ['Fullstack', 'Dev.'],
@@ -42,7 +42,7 @@ const teamMembers = [
     {
         src: 'assets/profile.jpg', 
         name: 'Leia Skywalker', 
-        alias: '@DB', 
+        alias: '@LS', 
         email: 'leia@skywalker.net', 
         status: 'Active', 
         tags: ['Fullstack', 'Dev.'],
