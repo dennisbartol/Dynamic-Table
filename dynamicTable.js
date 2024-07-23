@@ -15,6 +15,14 @@ const teamMembers = [
         status: 'Active', 
         tags: ['Front-End', 'Dev.'],
     },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Bilbo Baggins', 
+        alias: '@DB', 
+        email: 'bilbo@lotro.com', 
+        status: 'Active', 
+        tags: ['Front-End', 'Dev.'],
+    },
  
 ]
 
