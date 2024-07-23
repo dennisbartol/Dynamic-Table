@@ -39,6 +39,14 @@ const teamMembers = [
         status: 'Active', 
         tags: ['Fullstack', 'Dev.'],
     },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Leia Skywalker', 
+        alias: '@DB', 
+        email: 'leia@skywalker.net', 
+        status: 'Active', 
+        tags: ['Fullstack', 'Dev.'],
+    }
  
 ]
 
