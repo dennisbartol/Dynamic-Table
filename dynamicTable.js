@@ -2,8 +2,8 @@ const teamMembers = [
     {
         src: 'assets/profile.jpg', 
         name: 'James Alexander', 
-        alias: '@James', 
-        email: 'blabla@example.com', 
+        alias: '@JA', 
+        email: 'james@alexander.net', 
         status: 'Active', 
         tags: ['C#', 'Dev.'],
     },
@@ -11,10 +11,42 @@ const teamMembers = [
         src: 'assets/profile.jpg', 
         name: 'Den Bar', 
         alias: '@DB', 
-        email: 'blablaDB@example.com', 
+        email: 'info@denbar.site', 
         status: 'Active', 
         tags: ['Front-End', 'Dev.'],
     },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Bilbo Baggins', 
+        alias: '@BB', 
+        email: 'bilbo@lotro.com', 
+        status: 'Active', 
+        tags: ['Front-End', 'Dev.'],
+    },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Luke Skywalker', 
+        alias: '@LS', 
+        email: 'luke@skywalker.net', 
+        status: 'Active', 
+        tags: ['Fullstack', 'Dev.'],
+    },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Leia Skywalker', 
+        alias: '@DB', 
+        email: 'leia@skywalker.net', 
+        status: 'Active', 
+        tags: ['Fullstack', 'Dev.'],
+    },
+    {
+        src: 'assets/profile.jpg', 
+        name: 'Leia Skywalker', 
+        alias: '@DB', 
+        email: 'leia@skywalker.net', 
+        status: 'Active', 
+        tags: ['Fullstack', 'Dev.'],
+    }
  
 ]
 
