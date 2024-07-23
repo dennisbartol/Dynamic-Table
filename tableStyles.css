@@ -22,7 +22,7 @@ body {
 .pagination { 
     list-style-type: none; 
     display: flex; 
-    gap: 1em; 
+    gap: 0.5em; 
     padding: 2px;  
 }
 
