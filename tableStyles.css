@@ -20,6 +20,13 @@ body {
 }
 
 .pagination { 
+    list-style-type: none; 
+    display: flex; 
+    gap: 1em; 
+    padding: 2px;  
+}
+
+.pagination a { 
     display: block; 
     color: var(--primary); 
     text-decoration: underline; 
