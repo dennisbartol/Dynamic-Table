@@ -2,7 +2,7 @@ const teamMembers = [
     {
         src: 'assets/profile.jpg', 
         name: 'James Alexander', 
-        alias: '@JA', 
+        alias: '@James', 
         email: 'james@alexander.net', 
         status: 'Active', 
         tags: ['C#', 'Dev.'],
