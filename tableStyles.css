@@ -11,11 +11,11 @@
 body { 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px; 
+    padding: 0px; 
+    height: 100vh;
     display: flex; 
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    padding: 0px; 
     background-color: var(--background);
 }
 
