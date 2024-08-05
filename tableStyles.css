@@ -19,6 +19,20 @@ body {
     background-color: var(--background);
 }
 
+body:before { 
+    content: "";
+    position: absolute; 
+    bottom: 0; 
+    left: 50%; 
+    width: 100vh; 
+    height: 100vh; 
+    background: dodgerblue;
+    border-radius: 35%; 
+    transform-origin: bottom; 
+    transform: scale(4);
+    z-index: -1;
+}
+
 .pagination { 
     list-style-type: none; 
     display: flex; 
