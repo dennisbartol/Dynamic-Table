@@ -1,6 +1,6 @@
 const teamMembers = [
     {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'James Alexander', 
         alias: '@James', 
         email: 'james@alexander.net', 
@@ -8,7 +8,7 @@ const teamMembers = [
         tags: ['C#', 'Dev.'],
     },
     {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'Den Bar', 
         alias: '@DB', 
         email: 'info@denbar.site', 
@@ -16,7 +16,7 @@ const teamMembers = [
         tags: ['Front-End', 'Dev.'],
     },
     {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'Bilbo Baggins', 
         alias: '@BB', 
         email: 'bilbo@lotro.com', 
@@ -24,7 +24,7 @@ const teamMembers = [
         tags: ['Front-End', 'Dev.'],
     },
      {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'Luke Skywalker', 
         alias: '@Luke', 
         email: 'luke@skywalker.net', 
@@ -32,7 +32,7 @@ const teamMembers = [
         tags: ['Fullstack', 'Dev.'],
     },
     {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'Leia Skywalker', 
         alias: '@Leia', 
         email: 'leia@skywalker.net', 
@@ -40,7 +40,7 @@ const teamMembers = [
         tags: ['Fullstack', 'Dev.'],
     },
     {
-        src: 'assets/profile.jpg', 
+        src: 'assets/persona.png', 
         name: 'Corey Watson', 
         alias: '@CW', 
         email: 'Corey@watson.net', 

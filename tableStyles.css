@@ -19,6 +19,10 @@ body {
     background-color: var(--background);
 }
 
+img { 
+    width: 1em; 
+    height: 1em;
+}
 .pagination { 
     list-style-type: none; 
     display: flex; 
