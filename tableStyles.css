@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background);
+    overflow: hidden; 
 }
 
 body:before { 
