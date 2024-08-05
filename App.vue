@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DynamicTable from './DynamicTable.vue';
+import DynamicTable from './dynamicTable.vue';
 
 export default {
   name: 'App',
